@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "coffee-script": "*",
-    "mocha": "*"
+    "mocha": "*",
+    "should": "~4.0.4"
   }
 }
