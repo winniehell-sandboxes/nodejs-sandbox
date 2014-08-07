@@ -2,9 +2,9 @@
   "name": "nodejs-sandbox",
   "version": "0.0.0",
   "description": "playing around with node",
-  "main": "index.js",
+  "main": "index.coffee",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --compilers coffee:coffee-script/register"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
     "url": "https://github.com/winniehell/nodejs-sandbox/issues"
   },
   "devDependencies": {
+    "coffee-script": "*",
     "mocha": "*"
   }
 }
